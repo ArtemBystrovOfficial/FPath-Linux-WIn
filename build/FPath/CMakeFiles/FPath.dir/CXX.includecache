@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/artem/Desktop/test/sourse/FPath/FPath.cpp
+/home/artem/Desktop/FPath/sourse/FPath/FPath.cpp
 FPath.h
-/home/artem/Desktop/test/sourse/FPath/FPath.h
+/home/artem/Desktop/FPath/sourse/FPath/FPath.h
 
-/home/artem/Desktop/test/sourse/FPath/FPath.h
+/home/artem/Desktop/FPath/sourse/FPath/FPath.h
 exception
 -
 filesystem

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artem/Desktop/test/sourse
+CMAKE_SOURCE_DIR = /home/artem/Desktop/FPath/sourse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artem/Desktop/test/build
+CMAKE_BINARY_DIR = /home/artem/Desktop/FPath/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Desktop/test/build/CMakeFiles /home/artem/Desktop/test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Desktop/FPath/build/CMakeFiles /home/artem/Desktop/FPath/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Desktop/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Desktop/FPath/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named fpath
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+fpath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fpath
+.PHONY : fpath
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+fpath/fast:
+	$(MAKE) -f CMakeFiles/fpath.dir/build.make CMakeFiles/fpath.dir/build
+.PHONY : fpath/fast
 
 #=============================================================================
 # Target rules for targets named FPath
@@ -142,7 +142,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/fpath.dir/build.make CMakeFiles/fpath.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -151,7 +151,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/fpath.dir/build.make CMakeFiles/fpath.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -160,7 +160,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/fpath.dir/build.make CMakeFiles/fpath.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -171,7 +171,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main"
+	@echo "... fpath"
 	@echo "... FPath"
 	@echo "... main.o"
 	@echo "... main.i"

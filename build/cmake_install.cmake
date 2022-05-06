@@ -1,4 +1,4 @@
-# Install script for directory: /home/artem/Desktop/test/sourse
+# Install script for directory: /home/artem/Desktop/FPath/sourse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/artem/Desktop/test/build/FPath/cmake_install.cmake")
+  include("/home/artem/Desktop/FPath/build/FPath/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/artem/Desktop/test/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/artem/Desktop/FPath/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

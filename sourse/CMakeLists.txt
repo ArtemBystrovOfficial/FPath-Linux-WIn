@@ -14,8 +14,8 @@ set(SOURCE_EXE main.cpp)
 
 include_directories(FPath)		
 
-add_executable(main ${SOURCE_EXE})	
+add_executable(fpath ${SOURCE_EXE})	
 
 add_subdirectory(FPath)				
 
-target_link_libraries(main PRIVATE FPath)
+target_link_libraries(fpath PRIVATE FPath)

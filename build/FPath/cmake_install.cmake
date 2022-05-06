@@ -1,4 +1,4 @@
-# Install script for directory: /home/artem/Desktop/test/sourse/FPath
+# Install script for directory: /home/artem/Desktop/FPath/sourse/FPath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

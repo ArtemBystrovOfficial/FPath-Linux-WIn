@@ -62,6 +62,7 @@ std::string FExceptions::what()
 
 				for (decltype(it.first) i = it.first; i != it.second && i != unique_files.end(); i++)
 				{
+
 					if (find_unique_pathes(i->second.parent_path().string(), list_args))
 					{
 						final_path = i->second;
@@ -152,6 +153,7 @@ std::string FExceptions::what()
 
 	bool FPath::find_unique_pathes(const std::string& file, const std::vector <std::string>& list)
 	{
+
 		auto list_pathes = split_path(file);
 		bool is_find = true;
 		for (auto j : list)
@@ -159,6 +161,7 @@ std::string FExceptions::what()
 			bool is = false;
 			for (auto i : list_pathes)
 			{
+
 				if (j == i)
 				{
 					is = true;

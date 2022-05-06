@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/fpath.dir/main.cpp.o  -o bin/fpath  FPath/libFPath.a 

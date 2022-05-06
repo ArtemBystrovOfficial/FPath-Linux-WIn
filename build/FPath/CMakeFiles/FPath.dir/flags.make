@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/artem/Desktop/test/sourse/FPath 
+CXX_INCLUDES = -I/home/artem/Desktop/FPath/sourse/FPath 
 

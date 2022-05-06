@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artem/Desktop/test/sourse
+CMAKE_SOURCE_DIR = /home/artem/Desktop/FPath/sourse
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artem/Desktop/test/build
+CMAKE_BINARY_DIR = /home/artem/Desktop/FPath/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/artem/Desktop/test/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Desktop/test/build/CMakeFiles /home/artem/Desktop/test/build/FPath/CMakeFiles/progress.marks
-	cd /home/artem/Desktop/test/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Desktop/test/build/CMakeFiles 0
+	cd /home/artem/Desktop/FPath/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Desktop/FPath/build/CMakeFiles /home/artem/Desktop/FPath/build/FPath/CMakeFiles/progress.marks
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artem/Desktop/FPath/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/artem/Desktop/test/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/clean
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/artem/Desktop/test/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/preinstall
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/artem/Desktop/test/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/preinstall
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/artem/Desktop/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/artem/Desktop/FPath/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 FPath/CMakeFiles/FPath.dir/rule:
-	cd /home/artem/Desktop/test/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/CMakeFiles/FPath.dir/rule
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f CMakeFiles/Makefile2 FPath/CMakeFiles/FPath.dir/rule
 .PHONY : FPath/CMakeFiles/FPath.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ FPath: FPath/CMakeFiles/FPath.dir/rule
 
 # fast build rule for target.
 FPath/fast:
-	cd /home/artem/Desktop/test/build && $(MAKE) -f FPath/CMakeFiles/FPath.dir/build.make FPath/CMakeFiles/FPath.dir/build
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f FPath/CMakeFiles/FPath.dir/build.make FPath/CMakeFiles/FPath.dir/build
 .PHONY : FPath/fast
 
 FPath.o: FPath.cpp.o
@@ -131,7 +131,7 @@ FPath.o: FPath.cpp.o
 
 # target to build an object file
 FPath.cpp.o:
-	cd /home/artem/Desktop/test/build && $(MAKE) -f FPath/CMakeFiles/FPath.dir/build.make FPath/CMakeFiles/FPath.dir/FPath.cpp.o
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f FPath/CMakeFiles/FPath.dir/build.make FPath/CMakeFiles/FPath.dir/FPath.cpp.o
 .PHONY : FPath.cpp.o
 
 FPath.i: FPath.cpp.i
@@ -140,7 +140,7 @@ FPath.i: FPath.cpp.i
 
 # target to preprocess a source file
 FPath.cpp.i:
-	cd /home/artem/Desktop/test/build && $(MAKE) -f FPath/CMakeFiles/FPath.dir/build.make FPath/CMakeFiles/FPath.dir/FPath.cpp.i
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f FPath/CMakeFiles/FPath.dir/build.make FPath/CMakeFiles/FPath.dir/FPath.cpp.i
 .PHONY : FPath.cpp.i
 
 FPath.s: FPath.cpp.s
@@ -149,7 +149,7 @@ FPath.s: FPath.cpp.s
 
 # target to generate assembly for a file
 FPath.cpp.s:
-	cd /home/artem/Desktop/test/build && $(MAKE) -f FPath/CMakeFiles/FPath.dir/build.make FPath/CMakeFiles/FPath.dir/FPath.cpp.s
+	cd /home/artem/Desktop/FPath/build && $(MAKE) -f FPath/CMakeFiles/FPath.dir/build.make FPath/CMakeFiles/FPath.dir/FPath.cpp.s
 .PHONY : FPath.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/artem/Desktop/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/artem/Desktop/FPath/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

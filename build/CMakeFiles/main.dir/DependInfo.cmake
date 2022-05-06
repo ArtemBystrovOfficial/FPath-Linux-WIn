@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/artem/Desktop/test/sourse/main.cpp" "/home/artem/Desktop/test/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/artem/Desktop/FPath/sourse/main.cpp" "/home/artem/Desktop/FPath/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/artem/Desktop/test/sourse/FPath"
+  "/home/artem/Desktop/FPath/sourse/FPath"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/artem/Desktop/test/build/FPath/CMakeFiles/FPath.dir/DependInfo.cmake"
+  "/home/artem/Desktop/FPath/build/FPath/CMakeFiles/FPath.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -10,8 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
-  "/home/artem/Desktop/test/sourse/CMakeLists.txt"
-  "/home/artem/Desktop/test/sourse/FPath/CMakeLists.txt"
+  "/home/artem/Desktop/FPath/sourse/CMakeLists.txt"
+  "/home/artem/Desktop/FPath/sourse/FPath/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -47,6 +47,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/fpath.dir/DependInfo.cmake"
   "FPath/CMakeFiles/FPath.dir/DependInfo.cmake"
   )
