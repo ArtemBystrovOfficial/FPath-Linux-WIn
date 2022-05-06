@@ -1,0 +1,2 @@
+/usr/bin/ar qc libFPath.a  CMakeFiles/FPath.dir/FPath.cpp.o
+/usr/bin/ranlib libFPath.a

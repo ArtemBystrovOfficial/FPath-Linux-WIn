@@ -1,0 +1,6 @@
+/home/artem/Desktop/test/build/CMakeFiles/rebuild_cache.dir
+/home/artem/Desktop/test/build/CMakeFiles/edit_cache.dir
+/home/artem/Desktop/test/build/CMakeFiles/main.dir
+/home/artem/Desktop/test/build/FPath/CMakeFiles/rebuild_cache.dir
+/home/artem/Desktop/test/build/FPath/CMakeFiles/edit_cache.dir
+/home/artem/Desktop/test/build/FPath/CMakeFiles/FPath.dir

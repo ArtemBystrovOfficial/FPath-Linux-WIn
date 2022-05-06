@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/artem/Desktop/test/sourse/FPath/FPath.h
+exception
+-
+filesystem
+-
+string
+-
+iostream
+-
+map
+-
+algorithm
+-
+stdarg.h
+-
+fstream
+-
+
+/home/artem/Desktop/test/sourse/main.cpp
+FPath.h
+/home/artem/Desktop/test/sourse/FPath.h
+iostream
+-
+
