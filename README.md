@@ -8,15 +8,16 @@ Fast find your files at bash or you can use lib in c++ project( for fstream or f
 ## For what
 Programm make smart analysis for find all path to some file, now you must'nt write and remind full pathes in your projects
 
-##Install
+## Install
+_________
 
 ```console
 git clone https://github.com/ArtemBystrovOfficial/FPath-Linux-WIn ./FPath
 sudo ln -s $PWD/FPath/build/bin/fpath /usr/bin
 fpath -h
 ```
-
-##How use
+_________
+## How use
 use command in bash
 fpath [FLAG] ROOT_PATH FILE_SEARCHED ARGUMENTS...
 - FLAG -s -> if you must use accurate way you can put in arguments directiories before file 
