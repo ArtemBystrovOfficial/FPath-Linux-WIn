@@ -18,8 +18,8 @@ fpath -h
 ```
 _________
 ## How use
-use command in bash
-fpath [FLAG] ROOT_PATH FILE_SEARCHED ARGUMENTS...
+use command in bash <br/>
+`fpath [FLAG] ROOT_PATH FILE_SEARCHED ARGUMENTS...`
 - FLAG -s -> if you must use accurate way you can put in arguments directiories before file 
   - Example : fpath -s /home/artem main.cpp Project_x Debug 
   - Output  : /home/artem/Desktop/repos/Projcet_x/Debug/main.cpp
