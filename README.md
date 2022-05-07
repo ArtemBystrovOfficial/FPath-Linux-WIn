@@ -1,4 +1,4 @@
-# FPath-Linux-WIn
+# FPath-Linux-Win
 Easy work with Fstream, filesystem etc.pathes on all platforms.
 
 ## About
