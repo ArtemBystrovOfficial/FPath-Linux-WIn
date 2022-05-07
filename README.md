@@ -13,6 +13,7 @@ Programm make smart analysis for find all path to some file, now you must'nt wri
 ```console
 git clone https://github.com/ArtemBystrovOfficial/FPath-Linux-WIn ./FPath
 sudo ln -s $PWD/FPath/build/bin/fpath /usr/bin
+fpath -h
 ```
 
 ##How use
