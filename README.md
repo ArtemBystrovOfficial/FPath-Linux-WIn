@@ -2,11 +2,11 @@
 Easy work with Fstream, filesystem etc.pathes on all platforms.
 
 ## About
-Fast find your files at bash or you can use lib in c++ project( for fstream or filesystem)
+🚀 Fast find your files at bash or you can use lib in c++ project( for fstream or filesystem)
 `FPath.lib` `FPath.h`(try find this files use, after install repositry) 
 
 ## For what
-Programm make smart analysis for find all path to some file, now you must'nt write and remind full pathes in your projects
+📝 Programm make smart analysis for find all path to some file, now you must'nt write and remind full pathes in your projects
 
 ## Install
 _________
